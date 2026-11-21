@@ -1,8 +1,8 @@
 # Vice Platinum — GTA VI Trophy Guide & Tracker
 
-![Competition](https://make.fun/badge/gta6-trophy-guide-01.svg)
-![Rank](https://make.fun/badge/gta6-trophy-guide-01/makemoney8888/gta6-trophy-guide-01/rank.svg)
-![Reward](https://make.fun/badge/gta6-trophy-guide-01/makemoney8888/gta6-trophy-guide-01/reward.svg)
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/makemoney8888/gta6-trophy-guide-01/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/makemoney8888/gta6-trophy-guide-01/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 
 An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI, built as an entry for make.fun's `gta6-trophy-guide-01` bounty. Open `app/index.html` in a browser — it works with the network off, no build step, no accounts.
 
