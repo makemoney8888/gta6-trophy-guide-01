@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vice Platinum — GTA VI Trophy Guide & Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-text">
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5 · all 55 trophies</p>
+    <h1>Vice Platinum</h1>
+    <p class="tagline">A guide and tracker for the whole official list: every trophy with its guide and its sources, a roadmap to the platinum, the missables flagged from the descriptions, and progress that saves in your browser.</p>
+  </div>
+  <div class="masthead-stats" id="masthead-stats"></div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <a href="#/guide" data-view="guide">Guide &amp; tracker</a>
+  <a href="#/roadmap" data-view="roadmap">Roadmap</a>
+  <a href="#/missables" data-view="missables">Missables</a>
+  <a href="#/next" data-view="next">Next up</a>
+</nav>
+
+<section class="toolbar" id="toolbar">
+  <div class="toolbar-row">
+    <div class="kind-chips" id="kind-chips"></div>
+    <label class="toolbar-field">Grade
+      <select id="grade-filter"></select>
+    </label>
+    <label class="toolbar-field grow">Search
+      <input id="search" type="search" placeholder="Name, description or guide text…">
+    </label>
+  </div>
+  <div class="toolbar-row">
+    <label class="toggle"><input type="checkbox" id="spoilers-toggle"> Spoilers: hide story trophies until earned</label>
+    <label class="toggle"><input type="checkbox" id="hide-earned-toggle"> Hide earned</label>
+    <span class="toolbar-spacer"></span>
+    <span id="list-count" class="list-count"></span>
+    <button id="demo-btn" type="button">Load demo progress</button>
+    <button id="export-btn" type="button">Export progress</button>
+    <label class="import-label">Import progress <input id="import-file" type="file" accept="application/json"></label>
+    <button id="reset-btn" type="button">Reset</button>
+    <span id="import-note" class="import-note"></span>
+  </div>
+</section>
+
+<main>
+  <section id="view-guide" class="view">
+    <div class="guide-layout">
+      <div id="trophy-list" class="trophy-list"></div>
+      <aside id="trophy-detail" class="trophy-detail"></aside>
+    </div>
+  </section>
+  <section id="view-roadmap" class="view" hidden></section>
+  <section id="view-missables" class="view" hidden></section>
+  <section id="view-next" class="view" hidden></section>
+</main>
+
+<footer class="colophon">
+  <h2>Sources and method</h2>
+  <p>Every trophy's name, description and grade is the official one, as PlayStation publishes it. Each guide is written for this page, in the author's own words, and names what it was written from:</p>
+  <ul id="sources-list"></ul>
+  <p>The roadmap's order and the missable flags are reasoned from the official descriptions — which chapters and missions, which collectibles and counts — and the missables page explains its method rather than presenting guesses as facts. Where a description does not pin a fact down, the guide says so instead of inventing one.</p>
+  <p class="fineprint">An unofficial fan guide. Not affiliated with Rockstar Games or PlayStation; no official artwork is used — the look is this page's own.</p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
